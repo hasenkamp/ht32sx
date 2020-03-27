@@ -9,7 +9,7 @@ To use GIT, you may need one of the following softwares:
 * Windows: download and install https://git-scm.com/download/win
 
 
-One of the features of GIT is the *branch*ing, where one repository can have different branches. Here, at HT32SX repo we use that to different versions of the software to different revisions (or versions) of the hardware.
+One of the features of GIT is the *branch*ing, where one repository can have different branches. Here, for HT32SX repo, we use that to differiate versions of the software to match revisions (or versions) of the hardware.
 
 (Coming soon: how to identify your hardware version/revision, for now assume it is 2.1)
 
@@ -19,9 +19,9 @@ Lets say you have the version 2.1 of the hardware, today as ``` March, 2020 ``` 
 
 * release_h2.1_2.0: Software 2.0 of HW 2.1 UNSTABLE (it is under development, EOL 20th of January, 2021) 
 
-The first one (h2.1_1.0) is already stable: so if you use it as base for your code, you are safe. It will only be changed if a critical bug is found, and it makes the program work in a not properly manner.
+The first one (h2.1_1.0) is already stable: so if you use it as base for your code, you are safe. It will only be changed if a critical bug is found, meaning somehow it makes the program not to work properly.
 
-The second release (h2.1_2.0) is still unstable. It means that new features still being add to it. If you start your own program with this code base, and this code base gets updated, your program almost sure will broke, so it will require some changes to receive the update properly.
+The second release (h2.1_2.0) is still unstable. It means that new features still being add to it. If you start your own program with this code base, and this code base gets updated, your program almost sure will break, so it will require some changes to receive the update properly.
 
 The *master* branch is attached to the last hardware version. You should not use it, unless you want to test the latest features, but be warned: the code there may not even compile/build.
 
